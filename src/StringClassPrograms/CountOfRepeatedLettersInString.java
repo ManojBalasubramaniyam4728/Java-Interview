@@ -2,7 +2,7 @@ package StringClassPrograms;
 
 public class CountOfRepeatedLettersInString {
     public static void main(String[] args) {
-        String var = "abbccaffmm";
+        String var = "abbccaffmmg";
         char[] c = var.toCharArray();
         String duplicate = "";
 

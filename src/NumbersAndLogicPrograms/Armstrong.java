@@ -2,7 +2,7 @@ package NumbersAndLogicPrograms;
 
 public class Armstrong {
 	 public static void main(String[] args) {
-	     int num=146;
+	     int num=153;
 	     int temp=num;
 	     int temp1=num;
 	     int finalNum=0;

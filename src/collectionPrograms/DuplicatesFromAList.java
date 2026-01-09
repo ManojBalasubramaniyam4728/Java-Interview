@@ -19,10 +19,7 @@ public class DuplicatesFromAList {
 		System.out.println("The collention with duplicate is "+data);
 		
 		Set<Integer> dataToDuplicate=new LinkedHashSet<Integer>();
-		for (Integer integer : data) {
-			dataToDuplicate.add(integer);
-		}
-		
+		dataToDuplicate.addAll(data);
 		System.out.println("The collection without duplicate is "+dataToDuplicate);
 	}
 
